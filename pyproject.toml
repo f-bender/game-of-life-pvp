@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "game-of-life"
+version = "0.1.0"
+description = "Conway's Game of Life, inspired by DougDoug"
+authors = ["Florian Bender <benderflorian70@gmail.com>"]
+readme = "README.md"
+packages = [{include = "game_of_life"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
